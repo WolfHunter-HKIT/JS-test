@@ -12,7 +12,7 @@ function selector() {
 }
 // 1st Task.
 function task1() {
-	let kg = 36;
+	let kg = prompt("Input value in kilograms", 0);
 	console.log(`${kg}kg = ${kg * 1000}g`);
 
 	selector();
